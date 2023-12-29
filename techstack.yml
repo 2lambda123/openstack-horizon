@@ -1,0 +1,873 @@
+repo_name: 2lambda123/openstack-horizon
+report_id: 63dd33e41832729c4c8b34e71089260a
+version: 0.1
+repo_type: Public
+timestamp: '2023-12-29T21:10:27+00:00'
+requested_by: openstack-gerrit
+provider: github
+branch: master
+detected_tools_count: 58
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source: Repo Metadata
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source: requirements.txt
+  last_updated_by: manchandavishal
+  last_updated_on: 2023-08-01 15:36:07.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source: horizon/defaults.py
+  last_updated_by: Akihiro Motoki
+  last_updated_on: 2019-04-18 00:12:57.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source: ".eslintrc"
+  last_updated_by: Michael Krotscheck
+  last_updated_on: 2015-06-16 17:27:59.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Jasmine
+  description: DOM-less simple JavaScript testing framework
+  website_url: http://jasmine.github.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/831/7c0b595409af531b9cdeb07f8c513e8b.png
+  detection_source: package.json
+  last_updated_by: Tatiana Ovchinnikova
+  last_updated_on: 2020-12-08 23:12:50.000000000 Z
+- name: Karma
+  description: Spectacular Test Runner for JavaScript
+  website_url: http://karma-runner.github.io/
+  version: 5.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Browser Testing
+  image_url: https://img.stackshare.io/service/1420/TidYGd6a.png
+  detection_source_url: https://github.com/2lambda123/openstack-horizon/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Tatiana Ovchinnikova
+  last_updated_on: 2020-12-16 17:31:23.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source: requirements.txt
+  last_updated_by: Gabriel Hurley
+  last_updated_on: 2012-02-29 07:27:46.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: package.json
+  last_updated_by: Matt Borland
+  last_updated_on: 2015-03-26 20:48:55.000000000 Z
+- name: pytest
+  description: A full-featured Python testing tool to help you write better programs
+  website_url: http://pytest.org/latest/
+  version: 5.3.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
+  detection_source_url: https://github.com/2lambda123/openstack-horizon/blob/master/doc/requirements.txt
+  detection_source: doc/requirements.txt
+  last_updated_by: manchandavishal
+  last_updated_on: 2020-05-19 10:33:04.000000000 Z
+- name: Firefox
+  description: Mozilla's Web Browser
+  website_url: https://www.mozilla.org/en-US/firefox/
+  open_source: false
+  hosted_saas: false
+  category: Back Office
+  sub_category: Web Browser
+  image_url: https://img.stackshare.io/service/8705/768px-Firefox_Logo__2017.svg.png
+  detection_source: package.json
+  last_updated_by: Tatiana Ovchinnikova
+  last_updated_on: 2020-12-16 17:31:23.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata
+- name: Babel
+  description: Internationalization utilities
+  package_url: https://pypi.org/project/Babel
+  version: 2.6.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19888/default_680f9274a97353753534797409b2c06b6bd32266.png
+  detection_source_url: https://github.com/2lambda123/openstack-horizon/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: David Hill
+  last_updated_on: 2019-04-02 15:57:29.000000000 Z
+- name: Django
+  description: A high-level Python Web framework that encourages rapid development
+    and clean
+  package_url: https://pypi.org/project/Django
+  version: '3.2'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19832/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
+  detection_source_url: https://github.com/2lambda123/openstack-horizon/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: manchandavishal
+  last_updated_on: 2021-11-12 20:27:23.000000000 Z
+  vulnerabilities:
+  - name: Django bypasses validation when using one form field to upload multiple
+      files
+    cve_id: CVE-2023-31047
+    cve_url: https://github.com/advisories/GHSA-r3xc-prgr-mg9p
+    detected_date: May 10
+    severity: critical
+    first_patched: 3.2.19
+  - name: SQL Injection in Django
+    cve_id: CVE-2022-28347
+    cve_url: https://github.com/advisories/GHSA-w24h-v9qh-8gxj
+    detected_date: Apr 23
+    severity: critical
+    first_patched: 3.2.13
+  - name: SQL Injection in Django
+    cve_id: CVE-2021-35042
+    cve_url: https://github.com/advisories/GHSA-xpfp-f569-q3p2
+    detected_date: Sep 23
+    severity: critical
+    first_patched: 3.2.5
+  - name: SQL Injection in Django
+    cve_id: CVE-2022-28346
+    cve_url: https://github.com/advisories/GHSA-2gwj-7jmv-h26r
+    detected_date: Apr 27
+    severity: critical
+    first_patched: 3.2.13
+  - name: Django has regular expression denial of service vulnerability in EmailValidator/URLValidator
+    cve_id: CVE-2023-36053
+    cve_url: https://github.com/advisories/GHSA-jh3w-4vvf-mjgr
+    detected_date: Jul 6
+    severity: high
+    first_patched: 3.2.20
+  - name: Potential bypass of an upstream access control based on URL paths in Django
+    cve_id: CVE-2021-44420
+    cve_url: https://github.com/advisories/GHSA-v6rh-hp5x-86rv
+    detected_date: Dec 14
+    severity: high
+    first_patched: 3.2.10
+  - name: Path Traversal in Django
+    cve_id: CVE-2021-31542
+    cve_url: https://github.com/advisories/GHSA-rxjp-mfm9-w4wr
+    detected_date: Aug 22
+    severity: high
+    first_patched: 3.2.1
+  - name: 'Django vulnerable to Reflected File Download attack '
+    cve_id: CVE-2022-36359
+    cve_url: https://github.com/advisories/GHSA-8x94-hmjh-97hq
+    detected_date: Aug 12
+    severity: high
+    first_patched: 3.2.15
+  - name: Resource exhaustion in Django
+    cve_id: CVE-2023-24580
+    cve_url: https://github.com/advisories/GHSA-2hrw-hx67-34x6
+    detected_date: Feb 16
+    severity: high
+    first_patched: 3.2.18
+  - name: Information disclosure in Django
+    cve_id: CVE-2021-45116
+    cve_url: https://github.com/advisories/GHSA-8c5j-9r9f-c6w8
+    detected_date: Jan 13
+    severity: high
+    first_patched: 3.2.11
+  - name: Denial-of-service in Django
+    cve_id: CVE-2021-45115
+    cve_url: https://github.com/advisories/GHSA-53qw-q765-4fww
+    detected_date: Jan 13
+    severity: high
+    first_patched: 3.2.11
+  - name: Header injection possible in Django
+    cve_id: CVE-2021-32052
+    cve_url: https://github.com/advisories/GHSA-qm57-vhq3-3fwf
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 3.2.2
+  - name: Directory-traversal in Django
+    cve_id: CVE-2021-45452
+    cve_url: https://github.com/advisories/GHSA-jrh2-hc4r-7jwx
+    detected_date: Jan 13
+    severity: moderate
+    first_patched: 3.2.11
+- name: PyYAML
+  description: YAML parser and emitter for Python
+  package_url: https://pypi.org/project/PyYAML
+  version: '6.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19829/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/2lambda123/openstack-horizon/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: manchandavishal
+  last_updated_on: 2022-03-16 17:33:08.000000000 Z
+- name: XStatic-Angular-Bootstrap
+  description: Angular-Bootstrap 2.2.0
+  package_url: https://pypi.org/project/XStatic-Angular-Bootstrap
+  version: 2.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/2lambda123/openstack-horizon/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: manchandavishal
+  last_updated_on: 2023-08-01 15:36:07.000000000 Z
+- name: XStatic-Bootstrap-Datepicker
+  description: Bootstrap-Datepicker 1.3.1
+  package_url: https://pypi.org/project/XStatic-Bootstrap-Datepicker
+  version: 1.3.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/2lambda123/openstack-horizon/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: manchandavishal
+  last_updated_on: 2023-08-01 15:36:07.000000000 Z
+- name: XStatic-Font-Awesome
+  description: Font-Awesome 4.7.0
+  package_url: https://pypi.org/project/XStatic-Font-Awesome
+  version: 4.7.0
+  license: OFL-1.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/2lambda123/openstack-horizon/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: manchandavishal
+  last_updated_on: 2023-08-01 15:36:07.000000000 Z
+- name: XStatic-Rickshaw
+  description: Rickshaw 1.5.0
+  package_url: https://pypi.org/project/XStatic-Rickshaw
+  version: 1.5.0
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/2lambda123/openstack-horizon/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: manchandavishal
+  last_updated_on: 2023-08-01 15:36:07.000000000 Z
+- name: XStatic-jQuery
+  description: JQuery 3.3.1
+  package_url: https://pypi.org/project/XStatic-jQuery
+  version: 3.5.1
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/2lambda123/openstack-horizon/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: manchandavishal
+  last_updated_on: 2023-08-01 15:36:07.000000000 Z
+- name: XStatic-jquery-ui
+  description: Jquery-ui 1.12.1
+  package_url: https://pypi.org/project/XStatic-jquery-ui
+  version: 1.12.1
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/2lambda123/openstack-horizon/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: manchandavishal
+  last_updated_on: 2023-08-01 15:36:07.000000000 Z
+- name: XStatic-smart-table
+  description: Smart-table 1.4.13
+  package_url: https://pypi.org/project/XStatic-smart-table
+  version: 1.4.13
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/2lambda123/openstack-horizon/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: manchandavishal
+  last_updated_on: 2023-08-01 15:36:07.000000000 Z
+- name: debtcollector
+  description: A collection of Python deprecation patterns and strategies that help
+    you collect your technical debt in a non-destructive manner
+  package_url: https://pypi.org/project/debtcollector
+  version: 1.2.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20220/default_cb0bd9f98f28fdbbd4b638f37204b8e45b279aff.png
+  detection_source_url: https://github.com/2lambda123/openstack-horizon/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Robin Cernin
+  last_updated_on: 2019-04-15 00:22:15.000000000 Z
+- name: django-compressor
+  description: Compresses linked and inline JavaScript or CSS into single cached files
+  package_url: https://pypi.org/project/django-compressor
+  version: 2.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20436/default_ddb692c01567b84e62be2bdf1939b66f9ea202da.png
+  detection_source_url: https://github.com/2lambda123/openstack-horizon/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: manchandavishal
+  last_updated_on: 2021-11-12 20:27:23.000000000 Z
+- name: futurist
+  description: Useful additions to futures, from the future
+  package_url: https://pypi.org/project/futurist
+  version: 1.2.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20501/default_c208341ee4655965db6cf28c0d1b24d79c6c86c4.png
+  detection_source_url: https://github.com/2lambda123/openstack-horizon/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: OpenStack Proposal Bot
+  last_updated_on: 2017-09-11 23:28:30.000000000 Z
+- name: iso8601
+  description: Simple module to parse ISO 8601 dates
+  package_url: https://pypi.org/project/iso8601
+  version: 0.1.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20179/default_b59452f5365a0e677c38da18021b9d6569ac0da7.png
+  detection_source_url: https://github.com/2lambda123/openstack-horizon/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: OpenStack Proposal Bot
+  last_updated_on: 2016-04-30 18:03:40.000000000 Z
+- name: keystoneauth1
+  description: Authentication Library for OpenStack Identity
+  package_url: https://pypi.org/project/keystoneauth1
+  version: 4.3.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19987/default_b1f1fc9c4c59a78443018e01395203ba8c61dcde.png
+  detection_source_url: https://github.com/2lambda123/openstack-horizon/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Takashi Kajinami
+  last_updated_on: 2021-07-27 02:06:04.000000000 Z
+- name: mock
+  description: Rolling backport of unittest.mock for all Pythons
+  package_url: https://pypi.org/project/mock
+  version: 2.0.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19876/default_8902c10687fbcd6273bdbe119fff40fa1180763f.png
+  detection_source_url: https://github.com/2lambda123/openstack-horizon/blob/master/doc/requirements.txt
+  detection_source: doc/requirements.txt
+  last_updated_by: Akihiro Motoki
+  last_updated_on: 2018-03-21 21:46:10.000000000 Z
+- name: netaddr
+  description: A network address manipulation library for Python
+  package_url: https://pypi.org/project/netaddr
+  version: 0.7.18
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19938/default_33cd769f45954740da26824e035edca16b8b6b14.png
+  detection_source_url: https://github.com/2lambda123/openstack-horizon/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: OpenStack Proposal Bot
+  last_updated_on: 2017-09-11 23:28:30.000000000 Z
+- name: openstackdocstheme
+  description: OpenStack Docs Theme
+  package_url: https://pypi.org/project/openstackdocstheme
+  version: 2.2.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/2lambda123/openstack-horizon/blob/master/doc/requirements.txt
+  detection_source: doc/requirements.txt
+  last_updated_by: manchandavishal
+  last_updated_on: 2020-05-19 10:33:04.000000000 Z
+- name: oslo.concurrency
+  description: Oslo Concurrency library
+  package_url: https://pypi.org/project/oslo.concurrency
+  version: 4.5.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20089/default_36085c16346155862c5c1303e8a0a70416453533.png
+  detection_source_url: https://github.com/2lambda123/openstack-horizon/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: manchandavishal
+  last_updated_on: 2022-03-16 17:33:08.000000000 Z
+- name: oslo.config
+  description: Oslo Configuration API
+  package_url: https://pypi.org/project/oslo.config
+  version: 8.8.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19939/default_ef24dea3f718a66a706466571c316f7a6476e195.png
+  detection_source_url: https://github.com/2lambda123/openstack-horizon/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: manchandavishal
+  last_updated_on: 2022-03-16 17:33:08.000000000 Z
+- name: oslo.i18n
+  description: Oslo i18n library
+  package_url: https://pypi.org/project/oslo.i18n
+  version: 5.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19949/default_611a1328f69b729fac0a7b8bf87ff04e8ce35e17.png
+  detection_source_url: https://github.com/2lambda123/openstack-horizon/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: manchandavishal
+  last_updated_on: 2022-03-16 17:33:08.000000000 Z
+- name: oslo.policy
+  description: Oslo Policy library
+  package_url: https://pypi.org/project/oslo.policy
+  version: 3.11.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20173/default_5871712fda261fc385c7b33fe369cf2c5608819f.png
+  detection_source_url: https://github.com/2lambda123/openstack-horizon/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: manchandavishal
+  last_updated_on: 2022-03-16 17:33:08.000000000 Z
+- name: oslo.serialization
+  description: Oslo Serialization library
+  package_url: https://pypi.org/project/oslo.serialization
+  version: 4.3.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20012/default_e9040eaa49265a625935be9c600cfa8eedf19b93.png
+  detection_source_url: https://github.com/2lambda123/openstack-horizon/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: manchandavishal
+  last_updated_on: 2022-03-16 17:33:08.000000000 Z
+- name: oslo.upgradecheck
+  description: Common code for writing OpenStack upgrade checks
+  package_url: https://pypi.org/project/oslo.upgradecheck
+  version: 1.5.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20816/default_8a02e898e130414ed76fe56dcb57691b83efb1fc.png
+  detection_source_url: https://github.com/2lambda123/openstack-horizon/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: manchandavishal
+  last_updated_on: 2022-03-16 17:33:08.000000000 Z
+- name: oslo.utils
+  description: Oslo Utility library
+  package_url: https://pypi.org/project/oslo.utils
+  version: 4.12.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19924/default_e379381f04d06d2b92fe4a4b89611d053763070c.png
+  detection_source_url: https://github.com/2lambda123/openstack-horizon/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: manchandavishal
+  last_updated_on: 2022-03-16 17:33:08.000000000 Z
+- name: osprofiler
+  description: OpenStack Profiler Library
+  package_url: https://pypi.org/project/osprofiler
+  version: 3.4.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20564/default_4ceddbbb05c90a81a4df8681877b64d541e9baf1.png
+  detection_source_url: https://github.com/2lambda123/openstack-horizon/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: manchandavishal
+  last_updated_on: 2022-03-16 17:33:08.000000000 Z
+- name: pbr
+  description: Python Build Reasonableness
+  package_url: https://pypi.org/project/pbr
+  version: 5.5.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19861/default_4a8a8fdc10130068bf295812b98e9b72fb42fe70.png
+  detection_source_url: https://github.com/2lambda123/openstack-horizon/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Gabriel Hurley
+  last_updated_on: 2012-02-29 07:27:46.000000000 Z
+- name: pymongo
+  description: Python driver for MongoDB &lt;http://www.mongodb.org&gt;
+  package_url: https://pypi.org/project/pymongo
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19865/default_7975a21f3bf03129dc3bc4168cf7cb7ee2cc14cc.png
+  detection_source: requirements.txt
+  last_updated_by: OpenStack Proposal Bot
+  last_updated_on: 2016-11-15 09:40:13.000000000 Z
+- name: python-cinderclient
+  description: OpenStack Block Storage API Client Library
+  package_url: https://pypi.org/project/python-cinderclient
+  version: 8.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20477/default_411cd3020091758dcea4c38a81763b72c8423c88.png
+  detection_source_url: https://github.com/2lambda123/openstack-horizon/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Takashi Kajinami
+  last_updated_on: 2021-07-27 02:06:04.000000000 Z
+- name: python-glanceclient
+  description: OpenStack Image API Client Library
+  package_url: https://pypi.org/project/python-glanceclient
+  version: 2.8.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20328/default_1342a7e78c3c34f58715077849cd487ffddd263d.png
+  detection_source_url: https://github.com/2lambda123/openstack-horizon/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Takashi Kajinami
+  last_updated_on: 2021-07-27 02:06:04.000000000 Z
+- name: python-keystoneclient
+  description: Client Library for OpenStack Identity
+  package_url: https://pypi.org/project/python-keystoneclient
+  version: 3.22.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20002/default_fcae0ff2da138e12178ddb620f53c8af65eb3f61.png
+  detection_source_url: https://github.com/2lambda123/openstack-horizon/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Takashi Kajinami
+  last_updated_on: 2021-07-27 02:06:04.000000000 Z
+- name: python-neutronclient
+  description: CLI and Client Library for OpenStack Networking
+  package_url: https://pypi.org/project/python-neutronclient
+  version: 8.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20243/default_fc0d35561378e21d3174def06634c96515818661.png
+  detection_source_url: https://github.com/2lambda123/openstack-horizon/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Takashi Kajinami
+  last_updated_on: 2021-07-27 02:06:04.000000000 Z
+- name: python-novaclient
+  description: Client library for OpenStack Compute API
+  package_url: https://pypi.org/project/python-novaclient
+  version: 9.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20093/default_f98b6eb80721c20771ed17bad9890eb18cf4cbe7.png
+  detection_source_url: https://github.com/2lambda123/openstack-horizon/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Takashi Kajinami
+  last_updated_on: 2021-07-27 02:06:04.000000000 Z
+- name: python-swiftclient
+  description: OpenStack Object Storage API Client Library
+  package_url: https://pypi.org/project/python-swiftclient
+  version: 3.2.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20174/default_ca3aa0e41e52b1b227809155dc897694ec657b2c.png
+  detection_source_url: https://github.com/2lambda123/openstack-horizon/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Takashi Kajinami
+  last_updated_on: 2021-07-27 02:06:04.000000000 Z
+- name: pytz
+  description: World timezone definitions, modern and historical
+  package_url: https://pypi.org/project/pytz
+  version: '2013.6'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19841/default_bb711fa267b2329ed689711a5adb7d9e74610b20.png
+  detection_source_url: https://github.com/2lambda123/openstack-horizon/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: OpenStack Proposal Bot
+  last_updated_on: 2016-01-25 00:19:31.000000000 Z
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  version: 2.25.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/2lambda123/openstack-horizon/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Takashi Kajinami
+  last_updated_on: 2021-07-27 02:06:04.000000000 Z
+  vulnerabilities:
+  - name: Unintended leak of Proxy-Authorization header in requests
+    cve_id: CVE-2023-32681
+    cve_url: https://github.com/advisories/GHSA-j8r2-6x86-q33q
+    detected_date: May 23
+    severity: moderate
+    first_patched: 2.31.0
+- name: semantic-version
+  description: A library implementing the 'SemVer' scheme
+  package_url: https://pypi.org/project/semantic-version
+  version: 2.3.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20254/default_49d350d2ae446ec5a00ebd45eeeaa0c300409a71.png
+  detection_source_url: https://github.com/2lambda123/openstack-horizon/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: manchandavishal
+  last_updated_on: 2023-08-01 15:36:07.000000000 Z
+- name: six
+  description: Python 2 and 3 compatibility utilities
+  package_url: https://pypi.org/project/six
+  version: 1.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19827/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/2lambda123/openstack-horizon/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Gabriel Hurley
+  last_updated_on: 2012-02-29 07:27:46.000000000 Z
+- name: eslint-plugin-angular
+  description: ESLint rules for AngularJS projects
+  package_url: https://www.npmjs.com/eslint-plugin-angular
+  version: 4.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18121/image.png
+  detection_source_url: https://github.com/2lambda123/openstack-horizon/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Tatiana Ovchinnikova
+  last_updated_on: 2020-12-16 17:31:23.000000000 Z
+- name: jasmine-core
+  description: Official packaging of Jasmine's core files for use by Node.js projects
+  package_url: https://www.npmjs.com/jasmine-core
+  version: 3.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15905/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: https://github.com/2lambda123/openstack-horizon/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Tatiana Ovchinnikova
+  last_updated_on: 2020-12-08 23:12:50.000000000 Z
+- name: karma-cli
+  description: The Karma command line interface
+  package_url: https://www.npmjs.com/karma-cli
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16104/default_efe4f0184d007a28e793d89a59e058b742bc9177.png
+  detection_source_url: https://github.com/2lambda123/openstack-horizon/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Tatiana Ovchinnikova
+  last_updated_on: 2020-12-16 17:31:23.000000000 Z
+- name: karma-coverage
+  description: A Karma plugin. Generate code coverage
+  package_url: https://www.npmjs.com/karma-coverage
+  version: 2.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15951/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/2lambda123/openstack-horizon/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Tatiana Ovchinnikova
+  last_updated_on: 2020-12-16 17:31:23.000000000 Z
+- name: karma-firefox-launcher
+  description: A Karma plugin. Launcher for Firefox
+  package_url: https://www.npmjs.com/karma-firefox-launcher
+  version: 2.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16026/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
+  detection_source_url: https://github.com/2lambda123/openstack-horizon/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Tatiana Ovchinnikova
+  last_updated_on: 2020-12-16 17:31:23.000000000 Z
+- name: karma-jasmine
+  description: A Karma plugin - adapter for Jasmine testing framework
+  package_url: https://www.npmjs.com/karma-jasmine
+  version: 4.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15886/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/2lambda123/openstack-horizon/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Tatiana Ovchinnikova
+  last_updated_on: 2020-12-16 17:31:23.000000000 Z
+- name: karma-ng-html2js-preprocessor
+  description: A Karma plugin
+  package_url: https://www.npmjs.com/karma-ng-html2js-preprocessor
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17699/default_52c11a434d2ce37281914a7f804e07cf95ab96f7.png
+  detection_source_url: https://github.com/2lambda123/openstack-horizon/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Tatiana Ovchinnikova
+  last_updated_on: 2020-12-16 17:31:23.000000000 Z
