@@ -3,16 +3,16 @@
 ## Tech Stack
 2lambda123/openstack-horizon is built on the following main stack:
 
-- [Jasmine](http://jasmine.github.io/) – Javascript Testing Framework
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
 - [Python](https://www.python.org) – Languages
 - [jQuery](http://jquery.com/) – Javascript UI Libraries
 - [MongoDB](http://www.mongodb.com/) – Databases
-- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
-- [Karma](http://karma-runner.github.io/) – Browser Testing
 - [ESLint](http://eslint.org/) – Code Review
+- [Jasmine](http://jasmine.github.io/) – Javascript Testing Framework
+- [Karma](http://karma-runner.github.io/) – Browser Testing
 - [pytest](http://pytest.org/latest/) – Testing Frameworks
-- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 - [Firefox](https://www.mozilla.org/en-US/firefox/) – Web Browser
+- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 
 Full tech stack [here](/techstack.md)
 
@@ -22,16 +22,16 @@ Full tech stack [here](/techstack.md)
 ## Tech Stack
 2lambda123/openstack-horizon is built on the following main stack:
 
-- <img width='25' height='25' src='https://img.stackshare.io/service/831/7c0b595409af531b9cdeb07f8c513e8b.png' alt='Jasmine'/> [Jasmine](http://jasmine.github.io/) – Javascript Testing Framework
+- <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg' alt='jQuery'/> [jQuery](http://jquery.com/) – Javascript UI Libraries
 - <img width='25' height='25' src='https://img.stackshare.io/service/1030/leaf-360x360.png' alt='MongoDB'/> [MongoDB](http://www.mongodb.com/) – Databases
-- <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1420/TidYGd6a.png' alt='Karma'/> [Karma](http://karma-runner.github.io/) – Browser Testing
 - <img width='25' height='25' src='https://img.stackshare.io/service/3337/Q4L7Jncy.jpg' alt='ESLint'/> [ESLint](http://eslint.org/) – Code Review
+- <img width='25' height='25' src='https://img.stackshare.io/service/831/7c0b595409af531b9cdeb07f8c513e8b.png' alt='Jasmine'/> [Jasmine](http://jasmine.github.io/) – Javascript Testing Framework
+- <img width='25' height='25' src='https://img.stackshare.io/service/1420/TidYGd6a.png' alt='Karma'/> [Karma](http://karma-runner.github.io/) – Browser Testing
 - <img width='25' height='25' src='https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png' alt='pytest'/> [pytest](http://pytest.org/latest/) – Testing Frameworks
-- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 - <img width='25' height='25' src='https://img.stackshare.io/service/8705/768px-Firefox_Logo__2017.svg.png' alt='Firefox'/> [Firefox](https://www.mozilla.org/en-US/firefox/) – Web Browser
+- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 
 Full tech stack [here](/techstack.md)
 
@@ -42,7 +42,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [2lambda123/openstack-horizon](https://github.com/2lambda123/openstack-horizon)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|58<br/>Tools used|01/05/24 <br/>Report generated|
+|58<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -183,7 +183,7 @@ Full tech stack [here](/techstack.md)
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
 |[Babel](https://pypi.org/project/Babel)|v2.6.0|04/02/19|David Hill |BSD-3-Clause|N/A|
-|[Django](https://pypi.org/project/Django)|v3.2|11/12/21|manchandavishal |BSD-3-Clause|[CVE-2023-31047](https://github.com/advisories/GHSA-r3xc-prgr-mg9p) (Critical)<br/>[CVE-2022-28347](https://github.com/advisories/GHSA-w24h-v9qh-8gxj) (Critical)<br/>[CVE-2021-35042](https://github.com/advisories/GHSA-xpfp-f569-q3p2) (Critical)<br/>[CVE-2022-28346](https://github.com/advisories/GHSA-2gwj-7jmv-h26r) (Critical)<br/>[CVE-2023-36053](https://github.com/advisories/GHSA-jh3w-4vvf-mjgr) (High)<br/>[CVE-2021-44420](https://github.com/advisories/GHSA-v6rh-hp5x-86rv) (High)<br/>[CVE-2021-31542](https://github.com/advisories/GHSA-rxjp-mfm9-w4wr) (High)<br/>[CVE-2022-36359](https://github.com/advisories/GHSA-8x94-hmjh-97hq) (High)<br/>[CVE-2023-24580](https://github.com/advisories/GHSA-2hrw-hx67-34x6) (High)<br/>[CVE-2021-45116](https://github.com/advisories/GHSA-8c5j-9r9f-c6w8) (High)<br/>[CVE-2021-45115](https://github.com/advisories/GHSA-53qw-q765-4fww) (High)<br/>[CVE-2021-32052](https://github.com/advisories/GHSA-qm57-vhq3-3fwf) (Moderate)<br/>[CVE-2021-45452](https://github.com/advisories/GHSA-jrh2-hc4r-7jwx) (Moderate)|
+|[Django](https://pypi.org/project/Django)|v3.2|11/12/21|manchandavishal |BSD-3-Clause|[CVE-2023-31047](https://github.com/advisories/GHSA-r3xc-prgr-mg9p) (Critical)<br/>[CVE-2022-28347](https://github.com/advisories/GHSA-w24h-v9qh-8gxj) (Critical)<br/>[CVE-2021-35042](https://github.com/advisories/GHSA-xpfp-f569-q3p2) (Critical)<br/>[CVE-2022-28346](https://github.com/advisories/GHSA-2gwj-7jmv-h26r) (Critical)<br/>[CVE-2021-45115](https://github.com/advisories/GHSA-53qw-q765-4fww) (High)<br/>[CVE-2021-44420](https://github.com/advisories/GHSA-v6rh-hp5x-86rv) (High)<br/>[CVE-2021-31542](https://github.com/advisories/GHSA-rxjp-mfm9-w4wr) (High)<br/>[CVE-2022-36359](https://github.com/advisories/GHSA-8x94-hmjh-97hq) (High)<br/>[CVE-2023-24580](https://github.com/advisories/GHSA-2hrw-hx67-34x6) (High)<br/>[CVE-2021-45116](https://github.com/advisories/GHSA-8c5j-9r9f-c6w8) (High)<br/>[CVE-2023-36053](https://github.com/advisories/GHSA-jh3w-4vvf-mjgr) (High)<br/>[CVE-2021-32052](https://github.com/advisories/GHSA-qm57-vhq3-3fwf) (Moderate)<br/>[CVE-2021-45452](https://github.com/advisories/GHSA-jrh2-hc4r-7jwx) (Moderate)|
 |[PyYAML](https://pypi.org/project/PyYAML)|v6.0|03/16/22|manchandavishal |MIT|N/A|
 |[XStatic-Angular-Bootstrap](https://pypi.org/project/XStatic-Angular-Bootstrap)|v2.2.0|08/01/23|manchandavishal |MIT|N/A|
 |[XStatic-Bootstrap-Datepicker](https://pypi.org/project/XStatic-Bootstrap-Datepicker)|v1.3.1|08/01/23|manchandavishal |Apache-2.0|N/A|
