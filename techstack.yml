@@ -2,7 +2,7 @@ repo_name: 2lambda123/openstack-horizon
 report_id: 63dd33e41832729c4c8b34e71089260a
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T08:14:39+00:00'
+timestamp: '2024-02-29T19:20:28+00:00'
 requested_by: openstack-gerrit
 provider: github
 branch: master
@@ -220,12 +220,12 @@ tools:
     detected_date: Apr 27
     severity: critical
     first_patched: 3.2.13
-  - name: Django has regular expression denial of service vulnerability in EmailValidator/URLValidator
-    cve_id: CVE-2023-36053
-    cve_url: https://github.com/advisories/GHSA-jh3w-4vvf-mjgr
-    detected_date: Jul 6
+  - name: Denial-of-service in Django
+    cve_id: CVE-2021-45115
+    cve_url: https://github.com/advisories/GHSA-53qw-q765-4fww
+    detected_date: Jan 13
     severity: high
-    first_patched: 3.2.20
+    first_patched: 3.2.11
   - name: Potential bypass of an upstream access control based on URL paths in Django
     cve_id: CVE-2021-44420
     cve_url: https://github.com/advisories/GHSA-v6rh-hp5x-86rv
@@ -256,12 +256,12 @@ tools:
     detected_date: Jan 13
     severity: high
     first_patched: 3.2.11
-  - name: Denial-of-service in Django
-    cve_id: CVE-2021-45115
-    cve_url: https://github.com/advisories/GHSA-53qw-q765-4fww
-    detected_date: Jan 13
+  - name: Django has regular expression denial of service vulnerability in EmailValidator/URLValidator
+    cve_id: CVE-2023-36053
+    cve_url: https://github.com/advisories/GHSA-jh3w-4vvf-mjgr
+    detected_date: Jul 6
     severity: high
-    first_patched: 3.2.11
+    first_patched: 3.2.20
   - name: Header injection possible in Django
     cve_id: CVE-2021-32052
     cve_url: https://github.com/advisories/GHSA-qm57-vhq3-3fwf
